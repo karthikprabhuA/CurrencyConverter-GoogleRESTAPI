@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D5A8E06163003E100CD9251 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5A8E05163003E100CD9251 /* UIKit.framework */; };
+		2D5A8E08163003E100CD9251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5A8E07163003E100CD9251 /* Foundation.framework */; };
+		2D5A8E0A163003E100CD9251 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5A8E09163003E100CD9251 /* CoreGraphics.framework */; };
+		2D5A8E10163003E100CD9251 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A8E0E163003E100CD9251 /* InfoPlist.strings */; };
+		2D5A8E12163003E100CD9251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A8E11163003E100CD9251 /* main.m */; };
+		2D5A8E16163003E100CD9251 /* AKPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A8E15163003E100CD9251 /* AKPAppDelegate.m */; };
+		2D5A8E19163003E100CD9251 /* AKPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A8E18163003E100CD9251 /* AKPViewController.m */; };
+		2D5A8E1C163003E100CD9251 /* AKPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A8E1A163003E100CD9251 /* AKPViewController.xib */; };
+		2D5A8E24163003E100CD9251 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5A8E23163003E100CD9251 /* SenTestingKit.framework */; };
+		2D5A8E25163003E100CD9251 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5A8E05163003E100CD9251 /* UIKit.framework */; };
+		2D5A8E26163003E100CD9251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5A8E07163003E100CD9251 /* Foundation.framework */; };
+		2D5A8E2E163003E200CD9251 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A8E2C163003E200CD9251 /* InfoPlist.strings */; };
+		2D5A8E31163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A8E30163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D5A8E27163003E200CD9251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D5A8DF8163003E000CD9251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D5A8E00163003E100CD9251;
+			remoteInfo = CurrencyConverterGoogleRESTful;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D5A8E01163003E100CD9251 /* CurrencyConverterGoogleRESTful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverterGoogleRESTful.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5A8E05163003E100CD9251 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D5A8E07163003E100CD9251 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D5A8E09163003E100CD9251 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D5A8E0D163003E100CD9251 /* CurrencyConverterGoogleRESTful-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverterGoogleRESTful-Info.plist"; sourceTree = "<group>"; };
+		2D5A8E0F163003E100CD9251 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D5A8E11163003E100CD9251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D5A8E13163003E100CD9251 /* CurrencyConverterGoogleRESTful-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurrencyConverterGoogleRESTful-Prefix.pch"; sourceTree = "<group>"; };
+		2D5A8E14163003E100CD9251 /* AKPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPAppDelegate.h; sourceTree = "<group>"; };
+		2D5A8E15163003E100CD9251 /* AKPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPAppDelegate.m; sourceTree = "<group>"; };
+		2D5A8E17163003E100CD9251 /* AKPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPViewController.h; sourceTree = "<group>"; };
+		2D5A8E18163003E100CD9251 /* AKPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPViewController.m; sourceTree = "<group>"; };
+		2D5A8E1B163003E100CD9251 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKPViewController.xib; sourceTree = "<group>"; };
+		2D5A8E22163003E100CD9251 /* CurrencyConverterGoogleRESTfulTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterGoogleRESTfulTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5A8E23163003E100CD9251 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D5A8E2B163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverterGoogleRESTfulTests-Info.plist"; sourceTree = "<group>"; };
+		2D5A8E2D163003E200CD9251 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D5A8E2F163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterGoogleRESTfulTests.h; sourceTree = "<group>"; };
+		2D5A8E30163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterGoogleRESTfulTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5A8DFE163003E100CD9251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A8E06163003E100CD9251 /* UIKit.framework in Frameworks */,
+				2D5A8E08163003E100CD9251 /* Foundation.framework in Frameworks */,
+				2D5A8E0A163003E100CD9251 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5A8E1E163003E100CD9251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A8E24163003E100CD9251 /* SenTestingKit.framework in Frameworks */,
+				2D5A8E25163003E100CD9251 /* UIKit.framework in Frameworks */,
+				2D5A8E26163003E100CD9251 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5A8DF6163003E000CD9251 = {
+			isa = PBXGroup;
+			children = (
+				2D5A8E0B163003E100CD9251 /* CurrencyConverterGoogleRESTful */,
+				2D5A8E29163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests */,
+				2D5A8E04163003E100CD9251 /* Frameworks */,
+				2D5A8E02163003E100CD9251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D5A8E02163003E100CD9251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A8E01163003E100CD9251 /* CurrencyConverterGoogleRESTful.app */,
+				2D5A8E22163003E100CD9251 /* CurrencyConverterGoogleRESTfulTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D5A8E04163003E100CD9251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A8E05163003E100CD9251 /* UIKit.framework */,
+				2D5A8E07163003E100CD9251 /* Foundation.framework */,
+				2D5A8E09163003E100CD9251 /* CoreGraphics.framework */,
+				2D5A8E23163003E100CD9251 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D5A8E0B163003E100CD9251 /* CurrencyConverterGoogleRESTful */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A8E14163003E100CD9251 /* AKPAppDelegate.h */,
+				2D5A8E15163003E100CD9251 /* AKPAppDelegate.m */,
+				2D5A8E17163003E100CD9251 /* AKPViewController.h */,
+				2D5A8E18163003E100CD9251 /* AKPViewController.m */,
+				2D5A8E1A163003E100CD9251 /* AKPViewController.xib */,
+				2D5A8E0C163003E100CD9251 /* Supporting Files */,
+			);
+			path = CurrencyConverterGoogleRESTful;
+			sourceTree = "<group>";
+		};
+		2D5A8E0C163003E100CD9251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A8E0D163003E100CD9251 /* CurrencyConverterGoogleRESTful-Info.plist */,
+				2D5A8E0E163003E100CD9251 /* InfoPlist.strings */,
+				2D5A8E11163003E100CD9251 /* main.m */,
+				2D5A8E13163003E100CD9251 /* CurrencyConverterGoogleRESTful-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D5A8E29163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A8E2F163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests.h */,
+				2D5A8E30163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests.m */,
+				2D5A8E2A163003E200CD9251 /* Supporting Files */,
+			);
+			path = CurrencyConverterGoogleRESTfulTests;
+			sourceTree = "<group>";
+		};
+		2D5A8E2A163003E200CD9251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A8E2B163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests-Info.plist */,
+				2D5A8E2C163003E200CD9251 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D5A8E00163003E100CD9251 /* CurrencyConverterGoogleRESTful */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5A8E34163003E200CD9251 /* Build configuration list for PBXNativeTarget "CurrencyConverterGoogleRESTful" */;
+			buildPhases = (
+				2D5A8DFD163003E100CD9251 /* Sources */,
+				2D5A8DFE163003E100CD9251 /* Frameworks */,
+				2D5A8DFF163003E100CD9251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurrencyConverterGoogleRESTful;
+			productName = CurrencyConverterGoogleRESTful;
+			productReference = 2D5A8E01163003E100CD9251 /* CurrencyConverterGoogleRESTful.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D5A8E21163003E100CD9251 /* CurrencyConverterGoogleRESTfulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5A8E37163003E200CD9251 /* Build configuration list for PBXNativeTarget "CurrencyConverterGoogleRESTfulTests" */;
+			buildPhases = (
+				2D5A8E1D163003E100CD9251 /* Sources */,
+				2D5A8E1E163003E100CD9251 /* Frameworks */,
+				2D5A8E1F163003E100CD9251 /* Resources */,
+				2D5A8E20163003E100CD9251 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D5A8E28163003E200CD9251 /* PBXTargetDependency */,
+			);
+			name = CurrencyConverterGoogleRESTfulTests;
+			productName = CurrencyConverterGoogleRESTfulTests;
+			productReference = 2D5A8E22163003E100CD9251 /* CurrencyConverterGoogleRESTfulTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D5A8DF8163003E000CD9251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AKP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2D5A8DFB163003E000CD9251 /* Build configuration list for PBXProject "CurrencyConverterGoogleRESTful" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D5A8DF6163003E000CD9251;
+			productRefGroup = 2D5A8E02163003E100CD9251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D5A8E00163003E100CD9251 /* CurrencyConverterGoogleRESTful */,
+				2D5A8E21163003E100CD9251 /* CurrencyConverterGoogleRESTfulTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5A8DFF163003E100CD9251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A8E10163003E100CD9251 /* InfoPlist.strings in Resources */,
+				2D5A8E1C163003E100CD9251 /* AKPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5A8E1F163003E100CD9251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A8E2E163003E200CD9251 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D5A8E20163003E100CD9251 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5A8DFD163003E100CD9251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A8E12163003E100CD9251 /* main.m in Sources */,
+				2D5A8E16163003E100CD9251 /* AKPAppDelegate.m in Sources */,
+				2D5A8E19163003E100CD9251 /* AKPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5A8E1D163003E100CD9251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A8E31163003E200CD9251 /* CurrencyConverterGoogleRESTfulTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D5A8E28163003E200CD9251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D5A8E00163003E100CD9251 /* CurrencyConverterGoogleRESTful */;
+			targetProxy = 2D5A8E27163003E200CD9251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D5A8E0E163003E100CD9251 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5A8E0F163003E100CD9251 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D5A8E1A163003E100CD9251 /* AKPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5A8E1B163003E100CD9251 /* en */,
+			);
+			name = AKPViewController.xib;
+			sourceTree = "<group>";
+		};
+		2D5A8E2C163003E200CD9251 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5A8E2D163003E200CD9251 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D5A8E32163003E200CD9251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D5A8E33163003E200CD9251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5A8E35163003E200CD9251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverterGoogleRESTful/CurrencyConverterGoogleRESTful-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverterGoogleRESTful/CurrencyConverterGoogleRESTful-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D5A8E36163003E200CD9251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverterGoogleRESTful/CurrencyConverterGoogleRESTful-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverterGoogleRESTful/CurrencyConverterGoogleRESTful-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D5A8E38163003E200CD9251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CurrencyConverterGoogleRESTful.app/CurrencyConverterGoogleRESTful";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverterGoogleRESTful/CurrencyConverterGoogleRESTful-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverterGoogleRESTfulTests/CurrencyConverterGoogleRESTfulTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2D5A8E39163003E200CD9251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CurrencyConverterGoogleRESTful.app/CurrencyConverterGoogleRESTful";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverterGoogleRESTful/CurrencyConverterGoogleRESTful-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverterGoogleRESTfulTests/CurrencyConverterGoogleRESTfulTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5A8DFB163003E000CD9251 /* Build configuration list for PBXProject "CurrencyConverterGoogleRESTful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5A8E32163003E200CD9251 /* Debug */,
+				2D5A8E33163003E200CD9251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5A8E34163003E200CD9251 /* Build configuration list for PBXNativeTarget "CurrencyConverterGoogleRESTful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5A8E35163003E200CD9251 /* Debug */,
+				2D5A8E36163003E200CD9251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D5A8E37163003E200CD9251 /* Build configuration list for PBXNativeTarget "CurrencyConverterGoogleRESTfulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5A8E38163003E200CD9251 /* Debug */,
+				2D5A8E39163003E200CD9251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D5A8DF8163003E000CD9251 /* Project object */;
+}
